@@ -1,0 +1,6 @@
+install this in eclipse for tycho
+http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-tycho/0.8.0/N/LATEST/
+add the jar for gson from
+http://search.maven.org/remotecontent?filepath=com/google/code/gson/gson/2.3.1/gson-2.3.1.jar
+
+add gson jar to project-->properties-->java build path-->libraries-->add enternal jars

@@ -60,12 +60,7 @@ public class TestGitConnection {
 					repoName = repo.getName();
 					ownerName = repo.getOwner().getName();
 					TeamService teamService=new TeamService();
-					List<Team> teamList=teamService.getTeams(repo);
-					for (Team team : teamList) {
-						String teamName=team.getName();
-						String teamPermission=team.getPermission();
-
-					}
+					
 				}
 				// write line to file
 				WriteToFile.addUserDataLineToFile(userId, repoName, ownerName);
